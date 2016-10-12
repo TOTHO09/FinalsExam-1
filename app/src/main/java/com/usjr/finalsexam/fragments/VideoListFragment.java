@@ -64,6 +64,7 @@ public class VideoListFragment extends Fragment implements AdapterView.OnItemCli
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
         if (mOnVideoSelectedListener == null) {
             return;
         }
